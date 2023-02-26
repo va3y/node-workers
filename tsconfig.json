@@ -1,0 +1,9 @@
+{
+	"extends": "fastify-tsconfig",
+	"compilerOptions": {
+		"outDir": "dist",
+		"sourceMap": true,
+		"target": "ESNext"
+	},
+	"include": ["src/**/*.ts", "src/worker.mjs"]
+}
